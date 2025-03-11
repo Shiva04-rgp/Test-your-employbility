@@ -10,7 +10,6 @@ ENCODER_PATH = "label_encoder_fixed.joblib"
 model = joblib.load(MODEL_PATH)
 label_encoder = joblib.load(ENCODER_PATH)
 
-# Catchy one-line messages
 success_message = "😊 Awesome, {name}! You're employable and ready to shine! 🚀"
 failure_message = "😞 Keep pushing, {name}! Improve your skills and try again! 💪"
 
